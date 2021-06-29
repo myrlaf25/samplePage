@@ -15,8 +15,8 @@
   .section {
     background-color: rgb(20, 19, 19);
     padding: 100px;
-    line-height: 0%;
-    margin: 50px;
+    /* line-height: 0%;
+    margin: 50px; */
     position: relative;
     border-radius: 25px;
   }
@@ -129,4 +129,18 @@
   }
   #allBtn {
       display: flex;
+  }
+
+  @media only screen and (max-width: 570px) {
+    #allBtn, .row {
+     
+      display: flex;
+      flex-direction: column;
+      /* justify-content: flex-start; */
+      /* width: fit-content; */
+    }
+    .subheader {
+        position: relative;
+    }
+    
   }
