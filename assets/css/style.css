@@ -31,7 +31,8 @@
     font-size: 40px;
     padding: 25px;
   }
-  .btn {
+  /* lettermark button */
+  .btn, .btn1, .btn2 {
     display: flex;
     justify-content: center;
     border-radius: 20px;
@@ -44,7 +45,7 @@
     height: 200;
   
   }
-  .btn:hover {
+  .btn:hover, .btn1:hover, .btn2:hover  {
     display: flex;
     justify-content: center;
     border-radius: 20px;
@@ -56,6 +57,8 @@
     width: 185;
     height: 200;
   }
+
+  
   button {
     padding: 20px;
     font-size: 20px;
@@ -104,11 +107,18 @@
   }
   #img,
   #img2,
-  #img3 {
+  #img3,
+  #img4,
+  #img5,
+  #img6,
+  #img7,
+  #img8,
+  #img9 {
     width: 130px;
     height: 130px;
     border: solid rgb(161, 159, 159) 1px;
   }
+  
   h1 {
     font-size: 40px;
     font-weight: bold;
