@@ -92,12 +92,12 @@ a:focus {
   text-decoration: none;
   display: block;
   text-align: left;
-  /* z-index: 1000; */
+  
 }
 
 .dropdown-content a:hover {
   background-color: #ddd;
-  /* z-index: 1000; */
+
 }
 
 .show {
@@ -109,10 +109,8 @@ a:focus {
   background-color: rgb(20, 19, 19);
   padding: 100px;
   margin-top: 50px;
-  /* position: relative; */
   border-radius: 25px;
-  /* display: block;
-  width: 100%; */
+  
 }
 .subheader {
   color: goldenrod;
@@ -138,10 +136,10 @@ a:focus {
   background-color: rgb(20, 19, 19);
   border: 1px solid white;
   color: white;
-  padding: 20px;
-  font-size: 16px;
+  padding: 15px;
+  font-size: 15px;
   text-align: center;
-  width: 140;
+  width: 100;
   height: 200;
 }
 .btn:hover,
@@ -156,10 +154,10 @@ a:focus {
   background-color: white;
   border: 1px solid rgb(20, 19, 19);
   color: rgb(20, 19, 19);
-  padding: 20px;
-  font-size: 16px;
+  padding:15px;
+  font-size: 15px;
   text-align: center;
-  width: 140;
+  width: 100;
   height: 200;
 }
 
@@ -232,7 +230,6 @@ h4 {
 #allBtn {
   display: flex;
  flex-flow: wrap;
- /* width: 1020px; */
 }
 #iLogo {
   padding: 10px;
@@ -310,7 +307,6 @@ h4 {
   #allBtn {
       display: flex;
     flex-flow: wrap;
-    /* width: min-content; */
   }
   .section {
     width: min-content;
@@ -341,26 +337,14 @@ h4 {
   .btn2,
   .btn3,
   .btn4,
-  .btn5,
-  #img,
-  #img2,
-  #img3,
-  #img4,
-  #img5,
-  #img6,
-  #img7,
-  #img8,
-  #img9 {
+  .btn5 {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
   }
   #allBtn {
     flex-flow: wrap;
   }
-  /* .section {
-    width: min-content;
-  } */
+  
   .row,
   .column {
     display: flex;
@@ -381,26 +365,18 @@ h4 {
   .btn2,
   .btn3,
   .btn4,
-  .btn5,
-  #img,
-  #img2,
-  #img3,
-  #img4,
-  #img5,
-  #img6,
-  #img7,
-  #img8,
-  #img9 {
+  .btn5
+   {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
   }
-  #allBtn {
+  /* #allBtn {
     flex-flow: wrap;
   }
   .section {
       width: min-content;
-    }
+    } */
   .row,
   .column {
     display: flex;
@@ -413,3 +389,4 @@ h4 {
     float: inline-start;
   }
 }
+
