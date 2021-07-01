@@ -3,7 +3,6 @@ let message2 = document.querySelector("#message2");
 let text3 = document.querySelector("#text3");
 let text4 = document.querySelector("#text4");
 
-
 btnSend2.addEventListener("click", (event) => {
   event.preventDefault();
 
@@ -15,11 +14,31 @@ btnSend2.addEventListener("click", (event) => {
     img4.style.display = "none";
     img5.style.display = "none";
     img6.style.display = "none";
+    img10.style.display = "none";
+    img11.style.display = "none";
+    img12.style.display = "none";
+    img13.style.display = "none";
+    img14.style.display = "none";
+    img15.style.display = "none";
+    img16.style.display = "none";
+    img17.style.display = "none";
+    img18.style.display = "none";
+
     message.style.display = "none";
     message1.style.display = "none";
+    message3.style.display = "none";
+    message4.style.display = "none";
+    message5.style.display = "none";
+
     text.style.display = "none";
     text1.style.display = "none";
     text2.style.display = "none";
+    text5.style.display = "none";
+    text6.style.display = "none";
+    text7.style.display = "none";
+    text8.style.display = "none";
+    text9.style.display = "none";
+    text10.style.display = "none";
 
     img7.style.display = "inline-block";
     img8.style.display = "inline-block";

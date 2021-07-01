@@ -18,11 +18,31 @@ img6.style.display = "none";
 img7.style.display = "none";
 img8.style.display = "none";
 img9.style.display = "none";
+img10.style.display = "none";
+img11.style.display = "none";
+img12.style.display = "none";
+img13.style.display = "none";
+img14.style.display = "none";
+img15.style.display = "none";
+img16.style.display = "none";
+img17.style.display = "none";
+img18.style.display = "none";
+
 message1.style.display = "none";
 message2.style.display = "none";
+message3.style.display = "none";
+message4.style.display = "none";
+message5.style.display = "none";
+
 text2.style.display = "none";
 text3.style.display = "none";
 text4.style.display = "none";
+text5.style.display = "none";
+text6.style.display = "none";
+text7.style.display = "none";
+text8.style.display = "none";
+text9.style.display = "none";
+text10.style.display = "none";
 
 btnSend.addEventListener("click", (event) => {
   event.preventDefault();
@@ -36,11 +56,31 @@ btnSend.addEventListener("click", (event) => {
     img7.style.display = "none";
     img8.style.display = "none";
     img9.style.display = "none";
+    img10.style.display = "none";
+    img11.style.display = "none";
+    img12.style.display = "none";
+    img13.style.display = "none";
+    img14.style.display = "none";
+    img15.style.display = "none";
+    img16.style.display = "none";
+    img17.style.display = "none";
+    img18.style.display = "none";
+
     message1.style.display = "none";
     message2.style.display = "none";
+    message3.style.display = "none";
+    message4.style.display = "none";
+    message5.style.display = "none";
+
     text2.style.display = "none";
     text3.style.display = "none";
     text4.style.display = "none";
+    text5.style.display = "none";
+    text6.style.display = "none";
+    text7.style.display = "none";
+    text8.style.display = "none";
+    text9.style.display = "none";
+    text10.style.display = "none";
 
     img.style.display = "inline-block";
     img2.style.display = "inline-block";
@@ -72,11 +112,11 @@ function myFunction() {
 }
 
 // Close the dropdown if the user clicks outside of it
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-  var myDropdown = document.getElementById("myDropdown");
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
+window.onclick = function (e) {
+  if (!e.target.matches(".dropbtn")) {
+    var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains("show")) {
+      myDropdown.classList.remove("show");
     }
   }
-}
+};

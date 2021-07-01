@@ -92,12 +92,10 @@ a:focus {
   text-decoration: none;
   display: block;
   text-align: left;
-  
 }
 
 .dropdown-content a:hover {
   background-color: #ddd;
-
 }
 
 .show {
@@ -110,7 +108,6 @@ a:focus {
   padding: 100px;
   margin-top: 50px;
   border-radius: 25px;
-  
 }
 .subheader {
   color: goldenrod;
@@ -123,6 +120,11 @@ a:focus {
   font-size: 40px;
   padding: 25px;
 }
+.logoInfo {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
 
 .btn,
 .btn1,
@@ -130,7 +132,7 @@ a:focus {
 .btn3,
 .btn4,
 .btn5 {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   border-radius: 20px;
   background-color: rgb(20, 19, 19);
@@ -148,13 +150,13 @@ a:focus {
 .btn3:hover,
 .btn4:hover,
 .btn5:hover {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   border-radius: 20px;
   background-color: white;
   border: 1px solid rgb(20, 19, 19);
   color: rgb(20, 19, 19);
-  padding:15px;
+  padding: 15px;
   font-size: 15px;
   text-align: center;
   width: 100;
@@ -213,7 +215,16 @@ button {
 #img6,
 #img7,
 #img8,
-#img9 {
+#img9,
+#img10,
+#img11,
+#img12,
+#img13,
+#img14,
+#img15,
+#img16,
+#img17,
+#img18 {
   width: 130px;
   height: 130px;
   border: solid rgb(161, 159, 159) 1px;
@@ -227,10 +238,7 @@ h4 {
   font-size: 20px;
   color: rgb(109, 107, 107);
 }
-#allBtn {
-  display: flex;
- flex-flow: wrap;
-}
+
 #iLogo {
   padding: 10px;
   margin-bottom: 10px;
@@ -238,13 +246,7 @@ h4 {
 }
 
 @media only screen and (max-width: 280px) {
-  #allBtn,
-  #contactBtn .btn,
-  .btn1,
-  .btn2,
-  .btn3,
-  .btn4,
-  .btn5,
+  #contactBtn,
   #img,
   #img2,
   #img3,
@@ -254,14 +256,25 @@ h4 {
   #img7,
   #img8,
   #img9,
-  .navigation {
+  #img10,
+  #img11,
+  #img12,
+  #img13,
+  #img14,
+  #img15,
+  #img16,
+  #img17,
+  #img18 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
   }
-  #allBtn {
-    flex-flow: wrap;
-    width: min-content;
+  .logoInfo {
+    flex-direction: column;
+  }
+  .navigation {
+    display: flex;
+    flex-wrap: wrap;
   }
   .section {
     width: min-content;
@@ -284,13 +297,7 @@ h4 {
   }
 }
 @media only screen and (max-width: 360px) {
-  #allBtn,
-  #contactBtn .btn,
-  .btn1,
-  .btn2,
-  .btn3,
-  .btn4,
-  .btn5,
+  #contactBtn,
   #img,
   #img2,
   #img3,
@@ -299,18 +306,24 @@ h4 {
   #img6,
   #img7,
   #img8,
-  #img9 {
+  #img9,
+  #img10,
+  #img11,
+  #img12,
+  #img13,
+  #img14,
+  #img15,
+  #img16,
+  #img17,
+  #img18 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
   }
-  #allBtn {
-      display: flex;
-    flex-flow: wrap;
+  .logoInfo {
+    flex-direction: column;
   }
-  .section {
-    width: min-content;
-  }
+
   .row,
   .column {
     display: flex;
@@ -341,10 +354,10 @@ h4 {
     display: flex;
     flex-wrap: wrap;
   }
-  #allBtn {
-    flex-flow: wrap;
+  .logoInfo {
+    flex-direction: column;
   }
-  
+
   .row,
   .column {
     display: flex;
@@ -356,27 +369,24 @@ h4 {
     flex-direction: column;
     float: inline-start;
   }
+  #myDropdown {
+    width: min-content;
+  }
 }
 @media only screen and (max-width: 768px) {
-    #allBtn,
   #contactBtn,
   .btn,
   .btn1,
   .btn2,
   .btn3,
   .btn4,
-  .btn5
-   {
+  .btn5 {
     display: flex;
-    /* flex-direction: column; */
-    /* flex-wrap: wrap; */
+    
   }
-  /* #allBtn {
-    flex-flow: wrap;
+  .logoInfo {
+    flex-direction: column;
   }
-  .section {
-      width: min-content;
-    } */
   .row,
   .column {
     display: flex;
@@ -388,5 +398,7 @@ h4 {
     flex-direction: column;
     float: inline-start;
   }
+  #myDropdown {
+    width: min-content;
+  }
 }
-
